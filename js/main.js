@@ -22,7 +22,7 @@ $(document).ready(function() {
     event.preventDefault();
     var city = $("#city-type").val();
     $("#city-type").val("");
-    city = string.replace(/\s+/g,"").trim();
+
 	
     if(city == "New York City" || city == "NYC" || city == "New York") {
       $("body").attr("class","nyc");
